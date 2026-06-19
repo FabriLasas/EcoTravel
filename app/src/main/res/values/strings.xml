@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoTravel</string>
+    <string name="app_subtitle">Calculadora de Huella de Carbono</string>
+
+    <!-- secciones -->
+    <string name="section_your_stats">TUS ESTADÍSTICAS</string>
+    <string name="section_trip_details">DETALLES DEL VIAJE</string>
+    <string name="section_trip_summary">RESUMEN DEL VIAJE</string>
+
+    <!-- hints -->
+    <string name="hint_destination">Destino</string>
+    <string name="hint_distance">Distancia (km)</string>
+
+    <!-- labels -->
+    <string name="label_transport">Medio de Transporte</string>
+    <string name="label_business_trip">Viaje de Negocios (+15% recargo logístico)</string>
+    <string name="label_destination">Destino</string>
+    <string name="label_factor_header">Factor de emisión</string>
+    <string name="label_total_distance">📍 Distancia total recorrida: %.1f km</string>
+    <string name="label_last_destination">🗺️ Último destino: %s</string>
+    <string name="label_no_trips_yet">Aún no hay viajes registrados.</string>
+    <string name="label_emission_factor">%.0f g CO₂/km</string>
+    <string name="label_total_co2">%.2f kg CO₂</string>
+    <string name="label_business_surcharge">+15% recargo por viaje de negocios aplicado</string>
+
+    <!-- transportes radio -->
+    <string name="transport_plane">✈️  Avión (255 g CO₂/km)</string>
+    <string name="transport_car">🚗  Auto (171 g CO₂/km)</string>
+    <string name="transport_train">🚆  Tren (41 g CO₂/km)</string>
+
+    <!-- botones -->
+    <string name="btn_calculate">Calcular Huella de Carbono</string>
+    <string name="btn_view_history">Ver Historial de Rutas</string>
+    <string name="btn_new_trip">Nuevo Viaje</string>
+    <string name="btn_back">Volver</string>
+
+    <!-- resultado -->
+    <string name="result_title">Total de Emisiones</string>
+
+    <!-- historial -->
+    <string name="history_title">Historial de Rutas</string>
+    <string name="history_empty">No hay viajes registrados.\nCalculá tu primer ruta.</string>
+    <string name="hint_long_press">Mantené presionado un viaje para eliminarlo</string>
+
+    <string name="badge_business">Negocios</string>
+
+    <!-- errores validacion-->
+    <string name="error_empty_destination">Ingresá un destino</string>
+    <string name="error_invalid_distance">La distancia debe ser mayor a 0</string>
+    <string name="dialog_delete_title">Eliminar viaje</string>
+    <string name="dialog_delete_message">¿Estás seguro de que querés eliminar este viaje del historial?</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_confirm_delete">Eliminar</string>
+    <string name="logo">🌿</string>
+</resources>

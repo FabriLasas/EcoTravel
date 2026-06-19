@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".EcoTravelApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EcoTravel">
+
+        <!-- Activity 1: Trip Configuration (entry point) -->
+        <activity
+            android:name=".ui.activities.DetalleViajeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity 2: CO2 Impact Result -->
+        <activity
+            android:name=".ui.activities.ResultadosActivity"
+            android:exported="false" />
+
+        <!-- Activity 3: Trip History -->
+        <activity
+            android:name=".ui.activities.HistorialViajesActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
